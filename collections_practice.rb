@@ -46,3 +46,11 @@ def sum_array(array)
     sum + n
   end
 end
+
+def add_s(array)
+  array.each_with_index.collect do | word, index |
+    if word[index] != word[1]
+      word << "s"
+    end
+  end
+end
