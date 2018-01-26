@@ -37,9 +37,9 @@ end
 
 def find_a(array)
   strings_with_a = [ ]
-  array.select do |possible_string_starting_w_a |
-    if possible_string_starting_w_a.start_with?("a")
-      strings_with_a<<possible_string_starting_w_a
+  array.select do |string |
+    if string.start_with?("a")
+      strings_with_a << string
     end
   end
     strings_with_a
