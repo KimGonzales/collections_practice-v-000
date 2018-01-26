@@ -40,6 +40,7 @@ def find_a(array)
   array.find do |possible_string_starting_w_a |
     if possible_string_starting_w_a.start_with?("a")
       strings_with_a<<possible_string_starting_w_a
+    end
   end
   strings_with_a
 end
