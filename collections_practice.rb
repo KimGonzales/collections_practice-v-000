@@ -23,3 +23,7 @@ def swap_elements(array)
   array[2] = second_item
   array
 end
+
+def reverse_array(array)
+  array.reverse
+end
