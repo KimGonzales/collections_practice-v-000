@@ -34,3 +34,9 @@ def kesha_maker(array)
     name
   end
 end
+
+def find_a(array)
+  array.find |possible_string_starting_w_a |
+    possible_string_starting_w_a.start_with?("a")
+  end
+end
