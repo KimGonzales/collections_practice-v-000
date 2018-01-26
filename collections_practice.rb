@@ -33,5 +33,4 @@ def kesha_maker(array)
     name[2] = "$";
     name
   end
-    
 end
